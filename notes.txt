@@ -1,0 +1,83 @@
+﻿//Get.Wait(Get.Input());
+                  /*
+                   *how to get the name of the file in a URI                 
+                  string file = "data/bin/file.txt";
+                  string path = "/bin/l/ct/r/" + file;
+                  string onlyName = path.Substring(path.LastIndexOf("/")+1);
+
+                  Get.Wait(onlyName);
+                  */
+
+                  /*
+                   * 
+                   * 
+                   * all this has been just messing around to 
+                   *  waste some time working around this mess
+                  List<string> input = new List<string>();
+                 
+                  while (Get.Input().ToString() != "exit") {
+                        
+                        input.Add(Get.Text); 
+                  }
+                  foreach (string text in input)
+                        Get.Write(" > "+text);
+
+                  /* more examples
+                   *           Get.Hide(); 
+                  Get.Write(Get.Input());
+                  Console.WriteLine("hello");
+                  Console.SetCursorPosition(0, 0);
+                  Console.WriteLine("      ");
+
+
+                   * 
+                   * this those the same too 
+                   *     for (int i = 0; i < 100; ++i)
+                  {
+                        Thread.Sleep(100); 
+                        Console.Write("\r{0}%   ", i);
+                  }                  
+                   * 
+                   *                   
+                   * This can write progress                  
+                  Console.WriteLine();
+                  for (int i = 0; i <= 100; i++)
+                  {
+                        System.Threading.Thread.Sleep(10);
+                        Console.Write("\x000DProgress: " + i);
+                  }
+                  Console.Write(""); 
+                  Get.Wait(Get.Text);  
+                  */
+                  //---------------------------------------------------------
+                  //Where The Program is supposed to start when is not 
+                  // commented out with "//" or with /*
+                  
+                  
+                  
+                  /*This was the previus wasy that Options Menu used to work */
+                         /*
+                    Do.Label("Console Notepad"+" Version: "+MainProgram.Version);
+                    Do.LabelSide(DateTime.Now.ToString());
+                    Do.W("");
+                    Console.WriteLine ("Press The Number of your option");
+                    Console.WriteLine ("1. New Note");
+                    Console.WriteLine ("2. Open Note");
+                    Console.WriteLine("3. Delete Note");
+                    Console.WriteLine("4. Delete All Notes");
+                    Console.WriteLine("5. Exit");
+                    //string[] optionList = { "1. New Document", "2. Open Document", "3. Delete Document", "4. Exit" };
+                   //new CostumOptions(optionList);
+                    //using the try parse  to reduce the amount of issues posible
+                    //end using the variable answer,question,check to verified the input
+                    ///<!--     
+                    /// This part below will be to create the new version of this ConsoleNotes project , which is still not 
+                    /// cometed but i think i will devide it because i feel that this is already completed and i should just
+                    /// -->
+                                int answer = 0;
+                                // just get the number , but you may still get another number from it 
+                                string parse = Get.KeyInput().ToString().Replace("D","");
+                                // if the number has 2 numbers just return the first number 
+                                string question = parse.Length == 1 ?parse : parse.Substring(0, 0);  
+                               // Get.Box(question); 
+                               */

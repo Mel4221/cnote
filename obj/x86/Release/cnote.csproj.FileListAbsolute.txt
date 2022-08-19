@@ -1,0 +1,9 @@
+/home/mel/Documents/csharp/cnote/bin/Release/cnote.exe.config
+/home/mel/Documents/csharp/cnote/bin/Release/cnote.exe
+/home/mel/Documents/csharp/cnote/bin/Release/QuickTools.dll
+/home/mel/Documents/csharp/cnote/bin/Release/System.Configuration.ConfigurationManager.dll
+/home/mel/Documents/csharp/cnote/bin/Release/QuickTools.xml
+/home/mel/Documents/csharp/cnote/obj/x86/Release/cnote.csproj.CoreCompileInputs.cache
+/home/mel/Documents/csharp/cnote/obj/x86/Release/cnote.csproj.CopyComplete
+/home/mel/Documents/csharp/cnote/obj/x86/Release/cnote.exe
+/home/mel/Documents/csharp/cnote/obj/x86/Release/cnote.csproj.AssemblyReference.cache

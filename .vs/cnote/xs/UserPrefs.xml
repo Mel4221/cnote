@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{B4C5B0CB-675F-4143-8718-11FCC9DDB5F7}|Default">
+  <MonoDevelop.Ide.ItemProperties.cnote PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="main.cs">
+    <Files>
+      <File FileName="main.cs" Line="99" Column="17" />
+      <File FileName="Options.cs" Line="15" Column="1" />
+      <File FileName="../../../../../usr/lib/mono/xbuild/Microsoft/Microsoft.NET.Build.Extensions/Microsoft.NET.Build.Extensions.NETFramework.targets" Line="53" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="cnote" expanded="True">
+            <Node name="cnote" expanded="True">
+              <Node name="main.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/usr/lib/mono/xbuild/Microsoft/Microsoft.NET.Build.Extensions/Microsoft.NET.Build.Extensions.NETFramework.targets" line="57" column="5" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
