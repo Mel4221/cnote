@@ -6,7 +6,18 @@ namespace cnote
   class NewDoc
   {
       
-      
+      /*
+       *
+       *
+       *
+       *
+       *
+       *
+       *
+       *
+       *
+       *
+       * */
       
  
     public void DocFile()
