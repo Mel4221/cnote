@@ -58,6 +58,7 @@ during that date , today  is 03/04/2022
 
 
 using System;
+using System.IO; 
 using QuickTools;
 using System.Text;
 
@@ -68,20 +69,35 @@ namespace cnote
 
       class MainProgram
   {
-    // this method just use the methods W that was previusly C
-    // along with the method Input and the field Text 
-    // to verified and make sure that the caracter does not contain any of the 
-    // current simbols 
-    public const string Version = "M1.0.0.1F";
+            static void LoadPath()
+            {     
+                  string dir = Get.Path+"data/notes/"; 
+                  if (Directory.Exists(dir)== false)
+                  {
+                        Directory.CreateDirectory(dir);
+                  }
+            }
+
+
+
+
+            // this method just use the methods W that was previusly C
+            // along with the method Input and the field Text 
+            // to verified and make sure that the caracter does not contain any of the 
+            // current simbols 
+            public const string Version = "M1.0.0.1F";
     static void Main (string[] args)
     {
 
 
-               //   Log.Event("log", Get.Input());
-               //   Get.Wait(Reader.Read(Get.Path+"data/qt/logs/log"));
+                  //   Log.Event("log", Get.Input());
+                  //   Get.Wait(Reader.Read(Get.Path+"data/qt/logs/log"));
+
+                  var start = new AppOptions();
                   try
                   {
-                        var start = new AppOptions();
+
+                        LoadPath(); 
                         start.Option();
                   }
                   catch(Exception e)

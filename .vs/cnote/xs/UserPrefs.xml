@@ -2,9 +2,10 @@
   <MonoDevelop.Ide.ItemProperties.cnote PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="main.cs">
     <Files>
-      <File FileName="main.cs" Line="99" Column="17" />
-      <File FileName="Options.cs" Line="15" Column="1" />
+      <File FileName="main.cs" Line="96" Column="48" />
+      <File FileName="Options.cs" Line="30" Column="39" />
       <File FileName="../../../../../usr/lib/mono/xbuild/Microsoft/Microsoft.NET.Build.Extensions/Microsoft.NET.Build.Extensions.NETFramework.targets" Line="53" Column="3" />
+      <File FileName="NewDoc.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

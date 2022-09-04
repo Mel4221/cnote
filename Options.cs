@@ -22,9 +22,9 @@ namespace cnote
                   DateTime.Now;
 
                   string[] options =
-                                  {
-                                "1. New Note",
-                               "2. Open Note",
+                             {
+                             "1. New Note",
+                             "2. Open Note",
                              "3. Delete Note",
                              "4. Delete All Notes",
                              "5. Exit"

@@ -1,4 +1,29 @@
-|*** Date Of The Event :8/17/2022 11:39:06 PM ***|
+|*** Date Of The Event :9/1/2022 9:51:56 PM ***|
+
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/mel/Documents/csharp/cnote/bin/Release/data/notes'.
+  at System.IO.Enumeration.FileSystemEnumerator`1[TResult].CreateDirectoryHandle (System.String path, System.Boolean ignoreNotFound) [0x00032] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.IO.Enumeration.FileSystemEnumerator`1[TResult]..ctor (System.String directory, System.IO.EnumerationOptions options) [0x00048] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.IO.Enumeration.FileSystemEnumerable`1+DelegateEnumerator[TResult]..ctor (System.IO.Enumeration.FileSystemEnumerable`1[TResult] enumerable) [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.IO.Enumeration.FileSystemEnumerable`1[TResult]..ctor (System.String directory, System.IO.Enumeration.FileSystemEnumerable`1+FindTransform[TResult] transform, System.IO.EnumerationOptions options) [0x00042] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles (System.String directory, System.String expression, System.IO.EnumerationOptions options) [0x00014] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.IO.Directory.InternalEnumeratePaths (System.String path, System.String searchPattern, System.IO.SearchTarget searchTarget, System.IO.EnumerationOptions options) [0x0003c] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.EnumerationOptions enumerationOptions) [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern) [0x00007] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at cnote.DeleteAll.CollectFiles () [0x00010] in <713eecc780e441758ca75eb7b1fc6d2e>:0 
+  at cnote.AppOptions.Option () [0x000bf] in <713eecc780e441758ca75eb7b1fc6d2e>:0 
+  at cnote.MainProgram.Main (System.String[] args) [0x00005] in <713eecc780e441758ca75eb7b1fc6d2e>:0 |*** Date Of The Event :9/1/2022 9:51:43 PM ***|
+
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path "/home/mel/Documents/csharp/cnote/bin/Release/data/notes/hola.txt".
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x00164] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize) [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int)
+  at System.IO.File.Create (System.String path, System.Int32 bufferSize) [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.IO.File.Create (System.String path) [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at cnote.NewDoc.DocFile () [0x0009a] in <713eecc780e441758ca75eb7b1fc6d2e>:0 
+  at cnote.AppOptions.Option () [0x0009d] in <713eecc780e441758ca75eb7b1fc6d2e>:0 
+  at cnote.MainProgram.Main (System.String[] args) [0x00005] in <713eecc780e441758ca75eb7b1fc6d2e>:0 |*** Date Of The Event :8/17/2022 11:39:06 PM ***|
 
 
 System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/mel/Documents/csharp/cnote/bin/Release/data/notes'.
