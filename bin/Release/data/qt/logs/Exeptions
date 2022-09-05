@@ -1,4 +1,15 @@
-|*** Date Of The Event :8/17/2022 11:39:06 PM ***|
+|*** Date Of The Event :9/5/2022 12:25:36 PM ***|
+
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path "/home/mel/Documents/cs/cnote/bin/Release/data/notes/holoa.txt".
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x00164] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize) [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int)
+  at System.IO.File.Create (System.String path, System.Int32 bufferSize) [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.IO.File.Create (System.String path) [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at cnote.NewDoc.DocFile () [0x0009a] in <c184c072d2f7489fb52b0fc319972980>:0 
+  at cnote.AppOptions.Option () [0x0009d] in <c184c072d2f7489fb52b0fc319972980>:0 
+  at cnote.MainProgram.Main (System.String[] args) [0x00005] in <c184c072d2f7489fb52b0fc319972980>:0 |*** Date Of The Event :8/17/2022 11:39:06 PM ***|
 
 
 System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/mel/Documents/csharp/cnote/bin/Release/data/notes'.
