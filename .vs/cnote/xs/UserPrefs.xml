@@ -1,23 +1,17 @@
 ﻿<Properties StartupConfiguration="{B4C5B0CB-675F-4143-8718-11FCC9DDB5F7}|Default">
   <MonoDevelop.Ide.ItemProperties.cnote PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Library.cs">
     <Files>
-<<<<<<< HEAD
-      <File FileName="main.cs" Line="98" Column="6" />
-      <File FileName="Options.cs" Line="15" Column="1" />
-=======
-      <File FileName="main.cs" Line="96" Column="48" />
-      <File FileName="Options.cs" Line="30" Column="39" />
->>>>>>> 941952e0eae7b4f796802ad9cf7b74c421e00a6a
-      <File FileName="../../../../../usr/lib/mono/xbuild/Microsoft/Microsoft.NET.Build.Extensions/Microsoft.NET.Build.Extensions.NETFramework.targets" Line="53" Column="3" />
-      <File FileName="NewDoc.cs" Line="1" Column="1" />
+      <File FileName="Options.cs" Line="95" Column="29" />
+      <File FileName="main.cs" Line="102" Column="12" NotebookId="1" />
+      <File FileName="Library.cs" Line="33" Column="2" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="cnote" expanded="True">
             <Node name="cnote" expanded="True">
-              <Node name="main.cs" selected="True" />
+              <Node name="Library.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -27,9 +21,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/usr/lib/mono/xbuild/Microsoft/Microsoft.NET.Build.Extensions/Microsoft.NET.Build.Extensions.NETFramework.targets" line="57" column="5" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

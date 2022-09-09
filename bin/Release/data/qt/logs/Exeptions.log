@@ -1,0 +1,8 @@
+|*** Date Of The Event :9/7/2022 9:36:19 PM ***|
+
+
+System.OverflowException: Value was either too large or too small for an unsigned byte.
+  at System.Convert.ThrowByteOverflowException () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Convert.ToByte (System.Int32 value) [0x0000c] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at QuickTools.Traductor.Translate (System.String onlyText, System.Int32 complexity) [0x00027] in <954256ef6c4d4be8bf837781a01235d0>:0 
+  at cnote.MainProgram.Main (System.String[] args) [0x0003f] in <00e030e141ba41979761621fb66c9c0a>:0 

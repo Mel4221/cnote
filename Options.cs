@@ -15,24 +15,26 @@ namespace cnote
 
 
 
-                  Get.Title($"Console Notepad Version: {MainProgram.Version} ");
+                  Get.Title($"cnote version: {MainProgram.Version} ");
                   Options.SelectorL = " ";
                   Options.SelectorR = " ";
-                  Options.Label = $"Console Notepad Version: {MainProgram.Version} \n" +
+                  Options.Label = $"cnote version: {MainProgram.Version} \n" +
                   DateTime.Now;
 
-                  string[] options =
-                             {
+            string[] options =
+                       {
                              "1. New Note",
                              "2. Open Note",
                              "3. Delete Note",
                              "4. Delete All Notes",
                              "5. Exit"
-                             };
-
+                       }; 
+                             
+                 //var app = new Options();
+                 // app.ClearOptions(); 
                   var option = new Options(options);
-                 
-
+           
+                
 
                   int answer = option.Pick()+1;
                   switch (answer)
@@ -41,7 +43,7 @@ namespace cnote
 	      var create = new NewDoc ();
 	      create.DocFile ();
 	      break;
-
+                        
 	      case 2:		//Open
 	      var file = new Open ();
 	      file.OpenFile ();
@@ -96,8 +98,8 @@ namespace cnote
                           break;
 
 	default:
-	  Do.Yellow ("Not Valid Option Try Again Please");
-	  Get.WaitTime(1000);		// wait for a key being pressed 
+	 // Do.Yellow ("Not Valid Option Try Again Please");
+	  //Get.WaitTime(1000);		// wait for a key being pressed 
 	  Do.Cle ();            //clear de console 
                               goTo.Option();  
 

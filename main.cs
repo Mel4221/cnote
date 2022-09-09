@@ -97,13 +97,18 @@ namespace cnote
                   try
                   {
 
-                        LoadPath(); 
-                        start.Option();
-                  }
+                    LoadPath(); 
+                    start.Option();
+           
+
+
+                    }
                   catch(Exception e)
                   {
-                        Get.Alert("Something Went really wrong , and the ConsoleNotepad could not be stopped it, more details : \n"+e);
-                        Log.Event("Exeptions", e);
+
+                Log.Event("Exeptions", e);
+
+                Get.Alert("Something Went really wrong , and the ConsoleNotepad could not be stopped it, more details : \n"+e);
                        
                   }
                  

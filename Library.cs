@@ -28,8 +28,6 @@ namespace cnote
 {
       public class Library
       {
-            public Library()
-            {
-            }
+            
       }
 }
